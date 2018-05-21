@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+      <link rel="stylesheet" href="../laboratoria-trivia1/style.css" type="text/css" media="all">
+
+  <header>
+    <center>
+    <h1> 🌎 LABORATRIVIA 🌎 </h1>
+
+  <h3 id="bienvenida"> 😊BIENVENID@ 😊</h3>
+</fieldset>
+</center>
+    </head>
+    <body>
+<center>
+  </form>
+  <label> ¿cual es tu nombre? </label>
+  <Input type= "Text" id = "nombre"/ >
+  <button type="button" onclick="iniciar();">listo!</button>
+    <button type="button" onclick="limpiar();">Limpiar!</button>
+<center>
+  </header>
+    <hr/>
+    <hr/>
+  </header>
+<script type = "text/javascript" src="../laboratoria-trivia1/app.js"></script>
+    <fieldset>
+<form>
+  <p>¿Cuál es la bebida preferida de Gonzalo?<br/>
+
+     <input type="radio" name="bebidas" value="1" checked="checked"/>Agua<br/>
+     <input type="radio" name="bebidas" value="2"/>Cerveza<br/>
+     <input type="radio" name="bebidas" value="3"/> Vino<br/>
+
+
+  <p>¿Qué es lo que más le gusta hacer a Lulú?<br/>
+
+    <input type="radio" name="interes" value="1" checked="checked"/> Música<br/>
+    <input type="radio" name="interes" value="2"/>Cantar<br/>
+    <input type="radio" name="interes"  value="3"/>Programar<br/>
+
+
+  <!-- RESULTADOS -->
+  <section>
+    <div id="contenedorPrincipal" style="display:none"><!-- Nos permite ver el marcador -->
+      <h3>RESULTADOS</h3>
+
+      <div id="respuestasCorrectas" class="marcador">
+
+      </div><!-- Se visualizan las respuestas correctas -->
+      <div id="respuestasIncorrectas"  class="marcador">
+
+      </div><!-- Nos permite visualizar las respuestas incorrectas -->
+    </div>
+  </section>
+
+</body>
+</html>
